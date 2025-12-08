@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './Pages/Home.jsx'
 import { ThemeToggle } from './assets/components/ThemeToggle'
-import { NotFound } from './pages/NotFound'  
+import { NotFound } from './Pages/NotFound'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
 
-        
+
       </BrowserRouter>
     </>
   )
