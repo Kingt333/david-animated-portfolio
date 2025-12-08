@@ -56,9 +56,6 @@ export const Skills = () => {
                       className="h-full bg-primary rounded-full transition-all duration-1000 group-hover:w-[100%]"
                       style={{ width: '0%' }}
                     />
-                    {/* Note: In a real app, width would be based on proficiency. 
-                        Here using a hover effect to 'fill' the bar for interactivity. 
-                        For static initial state, we could set specific widths. */}
                     <style jsx>{`
                         .group:hover .bg-primary {
                             width: ${Math.floor(Math.random() * (100 - 70) + 70)}%; 

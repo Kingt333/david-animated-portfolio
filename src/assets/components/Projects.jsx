@@ -25,7 +25,15 @@ const projects = [
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80", // Placeholder
     github: "#",
     live: "#"
-  }
+  },
+{
+  title: "Clean energy website",
+  description: "A website for a clean energy company.",
+  tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
+  image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80", // Placeholder
+  github: "#",
+  live: "#"
+}
 ]
 
 export const Projects = () => {
