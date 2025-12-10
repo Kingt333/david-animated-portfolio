@@ -56,10 +56,10 @@ export const Skills = () => {
                       className="h-full bg-primary rounded-full transition-all duration-1000 group-hover:w-[100%]"
                       style={{ width: '0%' }}
                     />
-                    <style jsx>{`
-                        .group:hover .bg-primary {
-                            width: ${Math.floor(Math.random() * (100 - 70) + 70)}%; 
-                        }
+                    <style>{`
+                      .group:hover .bg-primary {
+                        width: ${Math.floor(Math.random() * (100 - 70) + 70)}%; 
+                      }
                      `}</style>
                   </div>
                 </div>

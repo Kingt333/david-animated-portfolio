@@ -24,7 +24,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h4 className="font-semibold">Email Me</h4>
-                <p className="text-sm text-muted-foreground">hello@davidjohn.dev</p>
+                <p className="text-sm text-muted-foreground">oluwatosinjohn316@gmail.com</p>
               </div>
             </div>
 
@@ -34,7 +34,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h4 className="font-semibold">Location</h4>
-                <p className="text-sm text-muted-foreground">San Francisco, CA</p>
+                <p className="text-sm text-muted-foreground">lagos ikorodu, Nigeria</p>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ export const Contact = () => {
             {[Github, Linkedin, Twitter].map((Icon, i) => (
               <a
                 key={i}
-                href="#"
+                href="https://github.com/oluwatosinjohn316"
                 className="p-3 rounded-full bg-card border border-border/50 hover:bg-primary hover:text-white hover:-translate-y-1 transition-all duration-300 shadow-md"
               >
                 <Icon size={20} />
