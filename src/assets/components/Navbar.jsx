@@ -35,9 +35,7 @@ export const Navbar = () => {
     <nav
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled
-          ? "py-3 bg-background/80 backdrop-blur-md shadow-sm border-b border-border/10"
-          : "py-5 bg-transparent"
+
       )}
     >
       <div className="container flex items-center justify-between">
@@ -46,7 +44,7 @@ export const Navbar = () => {
           <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-600 bg-300% animate-gradient group-hover:animate-pulse">
             DAVID
           </span>
-          <span className="text-foreground font-medium">Portfolio</span>
+          <span className="text-foreground font-medium size-4xl">Portfolio</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -74,7 +72,7 @@ export const Navbar = () => {
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="p-2 -mr-2 text-foreground/80 hover:text-primary transition-colors focus:outline-none"
+            className="p-2 -mr-2 text-foreground/90 hover:text-primary transition-colors focus:outline-none"
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             aria-expanded={isMenuOpen}
           >
@@ -85,7 +83,7 @@ export const Navbar = () => {
         {/* Mobile Menu Overlay */}
         <div
           className={cn(
-            "fixed inset-0 z-[60] flex flex-col items-center justify-center bg-background/98 backdrop-blur-xl transition-all duration-300 md:hidden",
+            "fixed inset-0 z-[60] flex flex-col items-center justify-center bg-background/98 backdrop-blur-xl transition-all duration-300 md:hidden f",
             isMenuOpen
               ? "opacity-100 translate-y-0 pointer-events-auto"
               : "opacity-0 -translate-y-4 pointer-events-none"

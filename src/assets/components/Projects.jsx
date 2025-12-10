@@ -1,39 +1,54 @@
 import { SectionWrapper } from "./SectionWrapper"
 import { ExternalLink, Github } from "lucide-react"
 
+import img1 from "../images/Screenshot 2025-09-10 104523.jpg"
+import img2 from "../images/Screenshot 2025-09-10 104800.jpg"
+import img3 from "../images/Screenshot 2025-09-10 105023.jpg"
+import img4 from "../images/Screenshot 2025-09-10 105410.jpg"
+import img5 from "../images/Screenshot 2025-09-10 105636.jpg"
+
 const projects = [
   {
     title: "E-Commerce Platform",
     description: "A full-featured online store with cart functionality, payment processing, and admin dashboard.",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80", // Placeholder
-    github: "#",
-    live: "#"
+    image: img2,
+    github: "https://github.com/kingt333/Davshop",
+    live: "https://davshop.vercel.app/"
   },
   {
-    title: "Task Management App",
-    description: "Real-time collaboration tool for teams to organize tasks and track progress.",
+    title: "Login page",
+    description: "A login page for a website.",
     tags: ["Next.js", "TypeScript", "Tailwind", "Supabase"],
-    image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80", // Placeholder
-    github: "#",
-    live: "#"
+    image: img3,
+    github: "https://github.com/kingt333/Login-page",
+    live: "https://loginpage.vercel.app/"
   },
   {
-    title: "AI Content Generator",
-    description: "SaaS application leveraging OpenAI to help marketers generate blog posts and social media copy.",
-    tags: ["React", "Python", "FastAPI", "OpenAI"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80", // Placeholder
-    github: "#",
-    live: "#"
+    title: "Todo app",
+    description: "A simple todo app with add, delete, and update functionality.",
+    tags: ["React", "Python", "FastAPI", "Supabase"],
+    image: img1,
+    github: "https://github.com/kingt333/Todo-app",
+    live: "https://todoapp.vercel.app/"
   },
-{
-  title: "Clean energy website",
-  description: "A website for a clean energy company.",
-  tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
-  image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80", // Placeholder
-  github: "#",
-  live: "#"
-}
+  {
+    title: "Clean energy website",
+    description: "A website for a clean energy company.",
+    tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
+    image: img4,
+    github: "https://github.com/kingt333/Clean-energy",
+    live: "https://cleanenergy-xi.vercel.app/"
+  },
+
+  {
+    title: "Youtube clone",
+    description: "A clone of the popular video sharing platform.",
+    tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
+    image: img5,
+    github: "https://github.com/kingt333/Youtube-clone",
+    live: "https://youtubeclone.vercel.app/"
+  }
 ]
 
 export const Projects = () => {
